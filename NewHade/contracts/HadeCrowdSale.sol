@@ -84,6 +84,13 @@ contract HadeCrowdSale {
       assert(endTime > startTime);
   }
 
+  // end sale
+  function end() external onlyAdmin {
+      if (now > endTime) {
+          isSaleActive = false;
+      }
+  }
+
   // low level token purchase function
   function buyTokens(address _beneficiary) public payable {
     require(_beneficiary != address(0));
@@ -105,9 +112,6 @@ contract HadeCrowdSale {
 
   // @return true if crowdsale event has ended
   function hasEnded() public view returns (bool) {
-    if (now > endTime) {
-        isSaleActive = false;
-    }
     return now > endTime;
   }
 
