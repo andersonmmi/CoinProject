@@ -216,12 +216,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "name": "_adminMultiSig",
-        "type": "address"
-      }
-    ],
+    "inputs": [],
     "payable": false,
     "stateMutability": "nonpayable",
     "type": "constructor"
