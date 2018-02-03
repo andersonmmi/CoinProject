@@ -321,7 +321,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 734,
+          "SourceUnit": 745,
           "absolutePath": "/Users/stevelee/Documents/w3d/CoinProject/NewHade/contracts/helpers/BasicToken.sol",
           "file": "./helpers/BasicToken.sol",
           "scope": 173,
@@ -336,7 +336,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 889,
+          "SourceUnit": 900,
           "absolutePath": "/Users/stevelee/Documents/w3d/CoinProject/NewHade/contracts/lib/SafeMath.sol",
           "file": "./lib/SafeMath.sol",
           "scope": 173,
@@ -352,16 +352,16 @@
       {
         "attributes": {
           "contractDependencies": [
-            733,
-            793
+            744,
+            804
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             172,
-            733,
-            793
+            744,
+            804
           ],
           "name": "HadeCoin",
           "scope": 173
@@ -378,7 +378,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "BasicToken",
-                  "referencedDeclaration": 733,
+                  "referencedDeclaration": 744,
                   "type": "contract BasicToken"
                 },
                 "id": 4,
@@ -396,7 +396,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
-                  "referencedDeclaration": 888,
+                  "referencedDeclaration": 899,
                   "type": "library SafeMath"
                 },
                 "id": 6,
@@ -842,7 +842,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 900,
+                                  "referencedDeclaration": 911,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -894,7 +894,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 509,
+                                  "referencedDeclaration": 520,
                                   "type": "mapping(address => uint256)",
                                   "value": "balances"
                                 },
@@ -1024,7 +1024,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 903,
+                              "referencedDeclaration": 914,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1155,7 +1155,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 903,
+                              "referencedDeclaration": 914,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1196,7 +1196,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 900,
+                                      "referencedDeclaration": 911,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -1392,7 +1392,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 903,
+                              "referencedDeclaration": 914,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1528,7 +1528,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 903,
+                              "referencedDeclaration": 914,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1677,7 +1677,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 509,
+                                  "referencedDeclaration": 520,
                                   "type": "mapping(address => uint256)",
                                   "value": "balances"
                                 },
@@ -1764,7 +1764,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 784,
+                              "referencedDeclaration": 795,
                               "type": "function (address,address,uint256)",
                               "value": "Transfer"
                             },
@@ -1989,7 +1989,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 903,
+                              "referencedDeclaration": 914,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2094,7 +2094,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 509,
+                                          "referencedDeclaration": 520,
                                           "type": "mapping(address => uint256)",
                                           "value": "balances"
                                         },
@@ -2120,7 +2120,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 900,
+                                              "referencedDeclaration": 911,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -2252,7 +2252,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 509,
+                                  "referencedDeclaration": 520,
                                   "type": "mapping(address => uint256)",
                                   "value": "balances"
                                 },
@@ -2278,7 +2278,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 900,
+                                      "referencedDeclaration": 911,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -2547,7 +2547,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 902,
+                              "referencedDeclaration": 913,
                               "type": "uint256",
                               "value": "now"
                             },
@@ -2657,7 +2657,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 904,
+                              "referencedDeclaration": 915,
                               "type": "function () pure",
                               "value": "revert"
                             },
@@ -2701,5 +2701,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-03T18:51:10.753Z"
+  "updatedAt": "2018-02-03T19:04:15.040Z"
 }

@@ -105,9 +105,14 @@ contract HadeCrowdSale {
     weiRaised = weiRaised.add(_weiAmount);
 
     token.transferFrom(adminMultiSig, _beneficiary, _tokens);
-    TokenPurchase(msg.sender, _beneficiary, _weiAmount, _tokens);
-
     _forwardFunds();
+    
+    TokenPurchase(msg.sender, _beneficiary, _weiAmount, _tokens);
+  }
+
+  // flush funds in case contract holds them
+  function flush() public {
+    adminMultiSig.transfer(this.balance);
   }
 
   // @return true if crowdsale event has ended
