@@ -1,7 +1,7 @@
 pragma solidity ^0.4.15;
 
 import './helpers/BasicToken.sol';
-import './lib/safeMath.sol';
+import './lib/SafeMath.sol';
 
 contract HadeCoin is BasicToken {
 
@@ -26,7 +26,6 @@ contract HadeCoin is BasicToken {
     // multi sign address of founders which hold
     address public adminMultiSig;
 
-
     /*
        EVENTS
     */
@@ -36,7 +35,7 @@ contract HadeCoin is BasicToken {
     /*
        CONSTRUCTOR
     */
-    function HadeCoin () public {
+    function HadeCoin() public {
 
         adminMultiSig = msg.sender;
         balances[adminMultiSig] = totalSupply;
@@ -60,7 +59,7 @@ contract HadeCoin is BasicToken {
        FUNCTIONS
     */
 
-    function mintTo(address _to, uint256 _value) external onlyAdmin {
+    function mint(address _to, uint256 _value) external onlyAdmin {
 
         require(_to != address(0));
         require(_value > 0);
